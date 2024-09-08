@@ -1,0 +1,152 @@
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    padding: 1rem;
+    text-align: center;
+    z-index: 2;
+}
+.container {
+    display: flex;
+    flex: 1;
+}
+main {
+    flex: 3;
+    padding: 2rem;
+    z-index: 2;
+}
+.main-table {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+}
+.sidebar {
+    flex: 1;
+    padding: 1rem;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%; 
+}
+
+footer {
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-icons {
+    display: flex;
+    gap: 15px;
+}
+a {
+    color: white;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+.footer-icons a {
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+}
+.footer-icons a:hover {
+    color: #ddd;
+}        
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.coops img {
+    max-width: 80px;
+    margin: 10px;
+}
+.header-logo-text-container {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    max-width: 200px;
+    height: auto;
+    margin-right: 15px;
+}
+.header-text {
+    font-size: 32px;
+    font-weight: bold;
+}
+header {
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-foto {
+    max-width: auto;
+    height: 300px;
+}
+.opac {
+    background-color: rgba(256, 256, 256, 0.25); 
+}
+.content-no-opacity {
+    z-index: 1;
+}
+
+.backgroundImage {
+    background-image: url("../background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay-container {
+    position: absolute;
+    top: 50px; 
+    right: 50px;
+}
+
+.overlayImage {
+    transform: scaleX(-1);
+    width: auto;
+    height: calc(100vh - 50px);
+    z-index: 1;
+}
+
+.image-qr {
+    height:150px;
+    width: auto;
+    margin-left:50px
+}
+
+.image-newplayers {
+    height:400px;
+    width: auto;
+}
+
+.footer-img {
+    height:50px;
+    width: auto;
+}
