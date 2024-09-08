@@ -50,16 +50,10 @@ footer {
     gap: 15px;
 }
 a {
-    color: white;
-}
-a:link {
-    color: blue;
-}
-a:visited {
-    color: purple;
+    color: #ff6600;
+    text-decoration: none;
 }
 a:hover {
-    color: pink;
     text-decoration: underline;
 }
 a:active {
