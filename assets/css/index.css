@@ -59,7 +59,7 @@ a:visited {
     color: purple;
 }
 a:hover {
-    color: green;
+    color: pink;
     text-decoration: underline;
 }
 a:active {
